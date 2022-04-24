@@ -1,0 +1,87 @@
+window:  
+  dimensions:
+    columns: 110
+    lines: 30
+
+  padding:
+    x: 8
+    y: 8
+
+  decorations: none
+  opacity: 0.94
+
+  startup_mode: Windowed
+
+  title: Alacritty
+
+  dynamic_title: true
+
+colors:
+  # COLORSCHEME: base16-porple-256.yml
+  # Default colors
+  primary:
+    background: '0x292c36'
+    foreground: '0xd8d8d8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  normal:
+    black: '0x292c36'
+    red: '0xf84547'
+    green: '0x95c76f'
+    yellow: '0xefa16b'
+    blue: '0x8485ce'
+    magenta: '0xb74989'
+    cyan: '0x64878f'
+    white: '0xd8d8d8'
+
+  # Bright colors
+  bright:
+    black: '0x65568a'
+    red: '0xf84547'
+    green: '0x95c76f'
+    yellow: '0xefa16b'
+    blue: '0x8485ce'
+    magenta: '0xb74989'
+    cyan: '0x64878f'
+    white: '0xf8f8f8'
+
+  cursor:
+    text: '0x292c36'
+    cursor: '0xd8d8d8'
+
+  # Normal colors
+  indexed_colors:
+    - {index: 16, color: '0xd28e5d'}
+    - {index: 17, color: '0x986841'}
+    - {index: 18, color: '0x333344'}
+    - {index: 19, color: '0x474160'}
+    - {index: 20, color: '0xb8b8b8'}
+    - {index: 21, color: '0xe8e8e8'}
+  dim:
+    black: '0x000000'
+    red: '0xa90000'
+    green: '0x049f2b'
+    yellow: '0xa3b106'
+    blue: '0x530aba'
+    magenta: '0xbb006b'
+    cyan: '0x433364'
+    white: '0x5f5f5f'
+  selection:
+    text: '0x000000'
+    background: '0xb3d7ff'
+shell:
+  program: /bin/zsh
+
+# 字体配置
+font:
+  # 常规字体
+  normal:
+    family: Fira Code    #目前的版本不支持连字
+    style: Regular
+  size: 14
+
+
+key_bindings:  
+  - { key: F, mods: Control, action: ToggleFullscreen }
+  - { key: Q, mods: Control, action: Quit }
+  - { key: M, mods: Control, action: Minimize}
