@@ -1,0 +1,3 @@
+[submodule "nvim"]
+	path = nvim
+	url = http://github.com/horaoen/nvim.git
