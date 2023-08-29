@@ -28,4 +28,5 @@ set_soft_link() {
 # zshrc
 set_soft_link "$BASEDIR/zshrc" ~/.zshrc
 
+# neovim
 set_soft_link "$BASEDIR/nvim" ~/.config/nvim
