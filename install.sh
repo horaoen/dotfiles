@@ -2,8 +2,7 @@
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # submodule init
-git submodule init
-git submodule update
+git submodule update --init
 
 set_soft_link() {
 	left_file=$1
@@ -30,3 +29,6 @@ set_soft_link "$BASEDIR/zshrc" ~/.zshrc
 
 # neovim
 set_soft_link "$BASEDIR/nvim" ~/.config/nvim
+
+# gitconfig
+set_soft_link "$BASEDIR/gitconfig" ~/.gitconfig
