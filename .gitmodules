@@ -2,3 +2,6 @@
 	path = nvim
 	url = http://github.com/horaoen/nvim.git
 	branch = main
+[submodule "dp"]
+	path = dp
+	url = http://github.com/horaoen/dp.git
