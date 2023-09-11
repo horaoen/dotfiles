@@ -26,3 +26,5 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 alias v=nvim
 alias vi=nvim
 alias vim=nvim
+
+alias lg=lazygit
