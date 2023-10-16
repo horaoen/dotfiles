@@ -32,3 +32,6 @@ set_soft_link "$BASEDIR/nvim" ~/.config/nvim
 
 # gitconfig
 set_soft_link "$BASEDIR/gitconfig" ~/.gitconfig
+
+# ideavimrc
+set_soft_link "$BASEDIR/ideavimrc" ~/.ideavimrc
