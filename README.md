@@ -5,6 +5,8 @@
 
 ```Bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew insall fd
+brew install cloc
 brew install git
 brew install tmux
 brew install jenv
