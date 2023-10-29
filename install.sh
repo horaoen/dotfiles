@@ -35,3 +35,7 @@ set_soft_link "$BASEDIR/gitconfig" ~/.gitconfig
 
 # ideavimrc
 set_soft_link "$BASEDIR/ideavimrc" ~/.ideavimrc
+
+# zed
+set_soft_link "$BASEDIR/zed" ~/.config/zed
+
