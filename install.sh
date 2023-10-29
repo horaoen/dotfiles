@@ -27,6 +27,9 @@ set_soft_link() {
 # zshrc
 set_soft_link "$BASEDIR/zshrc" ~/.zshrc
 
+# zsh sheme: p10k
+set_soft_link "$BASEDIR/p10k.zsh" ~/.p10k.zsh
+
 # neovim
 set_soft_link "$BASEDIR/nvim" ~/.config/nvim
 
@@ -38,4 +41,3 @@ set_soft_link "$BASEDIR/ideavimrc" ~/.ideavimrc
 
 # zed
 set_soft_link "$BASEDIR/zed" ~/.config/zed
-
