@@ -1,0 +1,121 @@
+{
+  "editor.cursorBlinking": "smooth",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.smoothScrolling": true,
+  "editor.tabCompletion": "on",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.insertSpaces": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.stickyTabStops": true,
+  "editor.wordBasedSuggestions": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "boundary",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.rightClickBehavior": "default",
+  "files.autoGuessEncoding": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/*.user": true,
+    "**/bower_components": true,
+    "**/CVS": true,
+    "**/obj": true,
+    "**/tmp": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/bower_components/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true
+  },
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "search.followSymlinks": false,
+  "window.dialogStyle": "custom",
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "debug.showBreakpointsInOverviewRuler": true,
+  "debug.toolBarLocation": "docked",
+  "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
+  "debug.onTaskErrors": "showErrors",
+  "html.format.indentHandlebars": true,
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "git.confirmSync": false,
+  "terminal.integrated.fontSize": 15,
+  "editor.wrappingIndent": "indent",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.suggestSelection": "first",
+  "launch": {
+    "configurations": []
+  },
+  "editor.codeLensFontFamily": "Fira Code",
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.profiles.linux": {
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+  "workbench.editorAssociations": {
+    "*.md": "default",
+    "*.vsix": "default"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "gitlens.views.contributors.files.layout": "list",
+  "gitlens.views.contributors.showAllBranches": true,
+  "git.enableSmartCommit": true,
+  "redhat.telemetry.enabled": true,
+  "workbench.editor.empty.hint": "hidden",
+  "typst-lsp.exportPdf": "onType",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vim.enableNeovim": true,
+  "vim.neovimUseConfigFile": true,
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.Assert.*",
+    "org.junit.Assume.*",
+    "org.junit.jupiter.api.Assertions.*",
+    "org.junit.jupiter.api.Assumptions.*",
+    "org.junit.jupiter.api.DynamicContainer.*",
+    "org.junit.jupiter.api.DynamicTest.*",
+    "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
+    "org.mockito.Answers.*"
+  ],
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "vscode-neovim.useWSL": true
+}
