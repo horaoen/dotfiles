@@ -8,7 +8,11 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[pull]
+	rebase = true
 [credential "https://github.com"]
-	helper = !/usr/bin/gh auth git-credential
+	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = !/usr/bin/gh auth git-credential
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[core]
+	autocrlf = input
