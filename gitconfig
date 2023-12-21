@@ -16,3 +16,5 @@
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [core]
 	autocrlf = input
+[credential]
+	helper = store

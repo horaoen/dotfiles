@@ -57,3 +57,12 @@ set_soft_link "$BASEDIR/ideavimrc" ~/.ideavimrc
 
 # zed
 set_soft_link "$BASEDIR/zed" ~/.config/zed
+
+# yabai
+set_soft_link "$BASEDIR/yabairc" ~/.yabairc
+
+# skhd
+set_soft_link "$BASEDIR/skhdrc" ~/.skhdrc
+
+# tmux
+set_soft_link "$BASEDIR/tmux.conf" ~/.tmux.conf

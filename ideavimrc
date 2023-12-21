@@ -18,10 +18,13 @@ set showmode
 set so=5
 set incsearch
 set nu
+set scrolloff=5
+
+" Do incremental searching.
+set incsearch
 
 """ Idea specific settings ------------------
 set ideajoin
-set ideastatusicon=gray
 set idearefactormode=keep
 
 """ Mappings --------------------------------
@@ -30,26 +33,19 @@ map <leader>rn <Action>(RenameElement)
 map <leader>c <Action>(Stop)
 map <leader>z <Action>(ToggleDistractionFreeMode)
 
-map <leader>s <Action>(SelectInProjectView)
-map <leader>a <Action>(Annotate)
-map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
-map <S-Space> <Action>(GotoNextError)
+map ge <Action>(GotoNextError)
+map gi <Action>(GotoImplementation)
+map <leader>lf <Action>(ReformatCode)
+map <leader>jd <Action>(QuickJavaDoc)
+map <leader>se <Action>(ShowErrorDescription)
+map <leader>ji <Action>(QuickImplementation)
 
 map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>o <Action>(FileStructurePopup)
 map <leader>q <Action>(CloseContent)
 nmap cot <Action>(CloseAllEditorsButActive)
-map gi <Action>(GotoImplementation)
-map <leader>lf <Action>(ReformatCode)
-map <leader>jd <Action>(QuickJavaDoc)
-map <leader>je <Action>(ShowErrorDescription)
-map <leader>ji <Action>(QuickImplementation)
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
-set scrolloff=5
-
-" Do incremental searching.
-set incsearch
 
 
 "" basic keymap ==========================

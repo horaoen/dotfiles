@@ -29,6 +29,8 @@ alias v=nvim
 alias vi=nvim
 alias vim=nvim
 
+alias cl=clear
+
 alias lg=lazygit
 
 # proxy
