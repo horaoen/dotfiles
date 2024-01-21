@@ -20,6 +20,7 @@ alias vi=nvim
 alias vim=nvim
 
 alias lg=lazygit
+alias cl=clear
 
 # proxy
 alias pxy="export ALL_PROXY=http://localhost:7890"
