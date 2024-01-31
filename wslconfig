@@ -1,5 +1,3 @@
-[wsl2]
-localhostForwarding=true 
 [experimental]
 autoProxy=false
 networkingMode=mirrored
